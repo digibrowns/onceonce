@@ -533,7 +533,7 @@ $(document).ready(function () {
         if (error) {
             $.ajax({
                 type: "POST",
-                url: "email-templates/travel-contact.php",
+                url: "mg.onceoncehq.com/contect-form",
                 data: $("#travelcontactform").serialize(),
                 success: function (result) {
                     $('input[type=text],textarea').each(function () {
@@ -572,7 +572,7 @@ $(document).ready(function () {
     }
 
 
-    //tatoo book now form
+    //tatoo Más Info form
 
     $("#tattoobooknow-contact-button").click(function () {
         var error = ValidationTattooBooknowForm();

@@ -533,7 +533,7 @@ $(document).ready(function () {
         if (error) {
             $.ajax({
                 type: "POST",
-                url: "mg.onceoncehq.com/contect-form",
+                url: "https://mg.onceoncehq.com/contact-form",
                 data: $("#travelcontactform").serialize(),
                 success: function (result) {
                     $('input[type=text],textarea').each(function () {
